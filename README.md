@@ -2,7 +2,7 @@
 Sorting images by color tool  
 " by philippe and paul c. "
 ## Usage
-go on line 143 and change the folder_path variabile to the folder with images
+go on line 143 and change the folder_path variable to the folder with images
 Also use the changed version of colorhief I added
 ## Install
 
