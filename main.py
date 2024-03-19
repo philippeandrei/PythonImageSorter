@@ -138,7 +138,7 @@ def change_color():
 
 #On Open
 
-folder_path = 'D:\images'
+folder_path = 'D:\images' #here choose the path to the folder with images
 window = tk.Tk()
 window.geometry('1000x500')
 b1 = tk.Button(window,text='Select a Color',command=change_color)
