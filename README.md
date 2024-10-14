@@ -1,27 +1,36 @@
-# sort_imagesby_color
-Sorting images by color tool  
-" by philippe and paul c. "
-## Usage
-go on line 143 and change the folder_path variable to the folder with images
-Also use the changed version of colorhief I added
-## Install
+# Sort Images by Color
+
+A tool for sorting images by their dominant colors, built by Philippe and Paul C.
+
+## 🚀 Features
+
+- Automatically generates a JSON file with color data for each image.
+- Prevents duplicate entries by checking if the image is already in the JSON.
+- Multithreaded for faster processing.
+
+## 🛠️ Usage
+
+1. Open the script and navigate to line 143.
+2. Change the `folder_path` variable to the directory containing your images.
+3. Use the modified version of `colorthief` included in this repo.
+
+## 📦 Installation
+
+To get started, install the necessary dependencies:
 
 ```bash
 pip install colorthief
 pip install pillow
 ```
-## How it works
 
-This script creates a json file with the color data of the photos, also checks if a photo is already in the json and does not add if it already is.  
-Uses threading for faster work.  
+## 🖼️ How it Works
+
+The script scans through a folder of images, extracts dominant colors, and saves the data in a `data.json` file. It ensures no image is added twice and uses threading to optimize the process, speeding things up significantly.
 
 ![colorsort](https://github.com/Phi999/sort_imagesby_color/assets/72974980/3c091292-ca02-4f1c-beaf-61813fb5b285)
 
-# TODO
+## 📝 TODO
 
-- [ ] Make the algorithm faster
-- [ ] Compress data.js
-- [ ] ReMake the UI better
-
-
-    
+- [ ] Improve algorithm efficiency.
+- [ ] Compress `data.js`.
+- [ ] Redesign the UI for a better user experience.
